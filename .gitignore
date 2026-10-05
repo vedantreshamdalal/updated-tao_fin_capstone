@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Local data
+data/
+
+# Vector databases / indexes
+*.faiss
+*.index
+vector_store/
+faiss_index/
+
+# Model/cache files
+.cache/
+huggingface_cache/
+models/
+
+# Test/cache
+.pytest_cache/
+.coverage
+
+# Temporary files
+*.tmp
+*.temp
+

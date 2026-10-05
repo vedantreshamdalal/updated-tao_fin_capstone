@@ -1,0 +1,658 @@
+[
+  {
+    "financebench_id": "financebench_id_03029",
+    "question": "What is the FY2018 capital expenditure amount (in USD millions) for 3M? Give a response to the question by relying on the details shown in the cash flow statement.",
+    "company": "3M",
+    "document": "3M_2018_10K",
+    "question_type": "metrics-generated",
+    "question_reasoning": "Information extraction",
+    "gold_answer": "$1577.00",
+    "predicted_answer": "The FY2018 capital expenditure amount for 3M is $1,577 million (in millions).",
+    "answer_correct": true,
+    "gold_pages": [
+      59
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hit_at_5": false,
+    "latency_seconds": 317.0449,
+    "verification": {
+      "checks": {
+        "numerical": true,
+        "evidence": true,
+        "logical": true,
+        "financial_consistency": true
+      },
+      "confidence": 1.0,
+      "failed_checks": [],
+      "details": {
+        "answer_numbers": [
+          2018.0,
+          3.0,
+          1577.0,
+          1.0
+        ]
+      }
+    },
+    "retrieved_evidence": [
+      {
+        "score": -1.2572805881500244,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 46,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents Investments in property, plant and equipment enable growth across many diverse markets, helping to meet product demand and increasing manufacturing efficiency. The Company expects 2019 capital spending to be approximately $1.7 billion to $1.9 billion as 3M continues to invest in it"
+      },
+      {
+        "score": -1.298093557357788,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 43,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents Cash, Cash Equivalents and Marketable Securities: At December 31, 2018, 3M had $3.3 billion of cash, cash equivalents and marketable securities, of which approximately $3.1 billion was held by the Company’s foreign subsidiaries and approximately $160 million was held by the United "
+      },
+      {
+        "score": -2.5794506072998047,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 42,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents FINANCIAL CONDITION AND LIQUIDI TY The strength and stability of 3M’s business model and strong free cash flow capability, together with proven capital markets access, positions the Company to be able to add further leverage to its capital structure. Investing in 3M’s businesses to"
+      },
+      {
+        "score": -2.8594281673431396,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 86,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents As a result of certain employment commitments and capital investments made by 3M, income from certain manufacturing activities in the following countries is subject to reduced tax rates or, in some cases, is exempt from tax for years through the following: Thailand (2018), China (2"
+      },
+      {
+        "score": -3.0468592643737793,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 38,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents Geographic Area Supplemental Information Property, Plant and Equipment - net Employees as of December 31, Capital Spending as of December 31, (Millions, except Employees) 2018 2017 2016 2018 2017 2016 2018 2017 United States 37,412 36,958 35,748 $ 994 $ 852 $ 834 $ 4,915 $ 4,891 As"
+      }
+    ],
+    "error": null
+  },
+  {
+    "financebench_id": "financebench_id_04672",
+    "question": "Assume that you are a public equities analyst. Answer the following question by primarily using information that is shown in the balance sheet: what is the year end FY2018 net PPNE for 3M? Answer in USD billions.",
+    "company": "3M",
+    "document": "3M_2018_10K",
+    "question_type": "metrics-generated",
+    "question_reasoning": "Information extraction",
+    "gold_answer": "$8.70",
+    "predicted_answer": "3M's year-end FY2018 net PPNE for 3M is $108 billion.",
+    "answer_correct": false,
+    "gold_pages": [
+      57
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hit_at_5": false,
+    "latency_seconds": 208.3979,
+    "verification": {
+      "checks": {
+        "numerical": true,
+        "evidence": true,
+        "logical": true,
+        "financial_consistency": true
+      },
+      "confidence": 1.0,
+      "failed_checks": [],
+      "details": {
+        "answer_numbers": [
+          3.0,
+          2018.0,
+          3.0,
+          108.0,
+          1.0
+        ]
+      }
+    },
+    "retrieved_evidence": [
+      {
+        "score": 0.9391043186187744,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 98,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents Equities consist primarily of mandates in public equity securities managed to various public equity indices. Publicly traded equities are valued at the closing price reported in the active market in which the individual securities are traded. Fixed Income investments include domest"
+      },
+      {
+        "score": -6.569505214691162,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 104,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents Credit Risk and Offsetting of Assets and Liabilities of Derivative Instruments: The Company is exposed to credit loss in the event of nonperformance by counterparties in interest rate swaps, currency swaps, commodity price swaps, and forward and option contracts. However, the Compa"
+      },
+      {
+        "score": -7.541632652282715,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 41,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents weighted based on different sales growth and terminal value assumptions, among other factors. The weighting was based on management’s estimates of the likelihood of each scenario occurring. 3M is a highly integrated enterprise, where businesses share technology and leverage common "
+      },
+      {
+        "score": -7.687188625335693,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 51,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents precious metals. These instruments are not designated in hedged relationships and the extent to which they were outstanding at December 31, 2018 was not material. Value At Risk: The value at risk analysis is performed annually to assess the Company’s sensitivity to changes in curre"
+      },
+      {
+        "score": -7.912363052368164,
+        "source": "FinanceBench",
+        "filing": "3M_2018_10K.pdf",
+        "page": 61,
+        "document": "3M_2018_10K.pdf",
+        "text_preview": "Table of Contents Marketable securities: Marketable securities include available-for-sale debt securities and are recorded at fair value. Cost of securities sold use the first in, first out (FIFO) method. The classification of marketable securities as current or non-current is based on the availabil"
+      }
+    ],
+    "error": null
+  },
+  {
+    "financebench_id": "financebench_id_00499",
+    "question": "Is 3M a capital-intensive business based on FY2022 data?",
+    "company": "3M",
+    "document": "3M_2022_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Logical reasoning (based on numerical reasoning)",
+    "gold_answer": "No, the company is managing its CAPEX and Fixed Assets pretty efficiently, which is evident from below key metrics:\nCAPEX/Revenue Ratio: 5.1%\nFixed assets/Total Assets: 20%\nReturn on Assets= 12.4%",
+    "predicted_answer": "3M is not a capital-intensive business based on FY2022 data.",
+    "answer_correct": false,
+    "gold_pages": [
+      47,
+      49,
+      51
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hit_at_5": false,
+    "latency_seconds": 247.3067,
+    "verification": {
+      "checks": {
+        "numerical": true,
+        "evidence": true,
+        "logical": true,
+        "financial_consistency": true
+      },
+      "confidence": 1.0,
+      "failed_checks": [],
+      "details": {
+        "answer_numbers": [
+          3.0,
+          2022.0,
+          1.0
+        ]
+      }
+    },
+    "retrieved_evidence": [
+      {
+        "score": 1.1611051559448242,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 36,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents FINANCIAL CONDITION AND LIQUIDITY The strength and stability of 3M’s business model and strong free cash flow capability, together with proven capital markets access, provide financial flexibility to deploy capital in accordance with the Company's stated priorities and meet needs "
+      },
+      {
+        "score": -0.16375362873077393,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 5,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents Resources Human Capital On December 31, 2022, the Company employed approximately 92,000 people (full-time equivalents), with approximately 37,000 employed in the United States and 55,000 employed internationally. The ability to recruit, retain, develop, protect, and fairly compens"
+      },
+      {
+        "score": -0.5656818151473999,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 3,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents 3M COMPANY ANNUAL REPORT ON FORM 10-K For the Year Ended December 31, 2022 PART I Item 1. Business. 3M Company was incorporated in 1929 under the laws of the State of Delaware to continue operations begun in 1902. The Company’s ticker symbol is MMM. As used herein, the term “3M” o"
+      },
+      {
+        "score": -0.5771699547767639,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 52,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents 3M Company and Subsidiaries Notes to Consolidated Financial Statements NOTE 1. Significant Accounting Policies Consolidation: 3M is a diversified global manufacturer, technology innovator and marketer of a wide variety of products. All applicable subsidiaries are consolidated. All"
+      },
+      {
+        "score": -1.225824236869812,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 37,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents Cash, cash equivalents and marketable securities: At December 31, 2022, 3M had $3.9 billion of cash, cash equivalents and marketable securities, of which approximately $2.7 billion was held by the Company’s foreign subsidiaries and approximately $1.2 billion was held in the United"
+      }
+    ],
+    "error": null
+  },
+  {
+    "financebench_id": "financebench_id_01226",
+    "question": "What drove operating margin change as of FY2022 for 3M? If operating margin is not a useful metric for a company like this, then please state that and explain why.",
+    "company": "3M",
+    "document": "3M_2022_10K",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Logical reasoning (based on numerical reasoning) OR Numerical reasoning OR Logical reasoning",
+    "gold_answer": "Operating Margin for 3M in FY2022 has decreased by 1.7% primarily due to: \n-Decrease in gross Margin\n-mostly one-off charges including Combat Arms Earplugs litigation, impairment related to exiting PFAS manufacturing, costs related to exiting Russia and divestiture-related restructuring\ncharges",
+    "predicted_answer": "Operating margin for 3M as of FY2022 was 22.3%.",
+    "answer_correct": false,
+    "gold_pages": [
+      26
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hit_at_5": false,
+    "latency_seconds": 221.429,
+    "verification": {
+      "checks": {
+        "numerical": true,
+        "evidence": true,
+        "logical": true,
+        "financial_consistency": true
+      },
+      "confidence": 1.0,
+      "failed_checks": [],
+      "details": {
+        "answer_numbers": [
+          3.0,
+          2022.0,
+          22.3,
+          1.0
+        ]
+      }
+    },
+    "retrieved_evidence": [
+      {
+        "score": -2.1237146854400635,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 40,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents Dividends Paid to Shareholders: 3M has paid dividends since 1916. In February 2023, 3M’s Board of Directors declared a first-quarter 2023 dividend of $1.50 per share, an increase of 1 percent. This is equivalent to an annual dividend of $6.00 per share and marked the 65th consecut"
+      },
+      {
+        "score": -2.8019638061523438,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 52,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents 3M Company and Subsidiaries Notes to Consolidated Financial Statements NOTE 1. Significant Accounting Policies Consolidation: 3M is a diversified global manufacturer, technology innovator and marketer of a wide variety of products. All applicable subsidiaries are consolidated. All"
+      },
+      {
+        "score": -3.753880500793457,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 19,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents 3M Belgium has experienced interruptions to portions of the manufacturing at its site in Zwijndrecht, Belgium, as more fully discussed in Note 16. As discussed in Note 16, 3M Belgium received agreement with authorities in June 2022 to begin the process toward restarting operations"
+      },
+      {
+        "score": -4.081096172332764,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 18,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations. Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A) is designed to provide a reader of 3M’s financial statements with a narrative from the perspe"
+      },
+      {
+        "score": -4.096708297729492,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 14,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents * The Company’s future results may be affected by its operational execution, including scenarios where the Company generates fewer productivity improvements than planned. The Company’s financial results depend on the successful execution of its business operating plans. The Compan"
+      }
+    ],
+    "error": null
+  },
+  {
+    "financebench_id": "financebench_id_01865",
+    "question": "If we exclude the impact of M&A, which segment has dragged down 3M's overall growth in 2022?",
+    "company": "3M",
+    "document": "3M_2022_10K",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "gold_answer": "The consumer segment shrunk by 0.9% organically.",
+    "predicted_answer": "The segment that has dragged down 3M's overall growth in 2022 is the Consumer Business.",
+    "answer_correct": false,
+    "gold_pages": [
+      24
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hit_at_5": false,
+    "latency_seconds": 326.2236,
+    "verification": {
+      "checks": {
+        "numerical": true,
+        "evidence": true,
+        "logical": true,
+        "financial_consistency": true
+      },
+      "confidence": 1.0,
+      "failed_checks": [],
+      "details": {
+        "answer_numbers": [
+          3.0,
+          2022.0,
+          1.0
+        ]
+      }
+    },
+    "retrieved_evidence": [
+      {
+        "score": -1.3098011016845703,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 60,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents NOTE 3. Acquisitions and Divestitures Acquisitions: 3M makes acquisitions of certain businesses from time to time that are aligned with its strategic intent with respect to, among other factors, growth markets and adjacent product lines or technologies. Goodwill resulting from bus"
+      },
+      {
+        "score": -1.587323784828186,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 52,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents 3M Company and Subsidiaries Notes to Consolidated Financial Statements NOTE 1. Significant Accounting Policies Consolidation: 3M is a diversified global manufacturer, technology innovator and marketer of a wide variety of products. All applicable subsidiaries are consolidated. All"
+      },
+      {
+        "score": -2.0207929611206055,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 18,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations. Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A) is designed to provide a reader of 3M’s financial statements with a narrative from the perspe"
+      },
+      {
+        "score": -2.2413158416748047,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 32,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents Consumer Business (15.5% of consolidated sales): 2022 2021 Sales (millions) $ 5,298 $ 5,513 Sales change analysis: Organic sales (0.9) % 9.8 % Divestitures (0.4) — Translation (2.6) 1.0 Total sales change (3.9) % 10.8 % Business segment operating income (millions) $ 994 $ 1,162 Pe"
+      },
+      {
+        "score": -2.5132670402526855,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 36,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents FINANCIAL CONDITION AND LIQUIDITY The strength and stability of 3M’s business model and strong free cash flow capability, together with proven capital markets access, provide financial flexibility to deploy capital in accordance with the Company's stated priorities and meet needs "
+      },
+      {
+        "score": -2.7013540267944336,
+        "source": "FinanceBench",
+        "filing": "3M_2022_10K.pdf",
+        "page": 63,
+        "document": "3M_2022_10K.pdf",
+        "text_preview": "T able of Contents Certain tradenames acquired by 3M are not amortized because they have been in existence for over 60 years, have a history of leading-market share positions, have been and are intended to be continuously renewed, and the associated products of which are expected to generate cash fl"
+      }
+    ],
+    "error": null
+  },
+  {
+    "financebench_id": "financebench_id_00807",
+    "question": "Does 3M have a reasonably healthy liquidity profile based on its quick ratio for Q2 of FY2023? If the quick ratio is not relevant to measure liquidity, please state that and explain why.",
+    "company": "3M",
+    "document": "3M_2023Q2_10Q",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Logical reasoning (based on numerical reasoning) OR Logical reasoning",
+    "gold_answer": "No. The quick ratio for 3M was 0.96 by Jun'23 close, which needs a bit of an improvement to touch the 1x mark",
+    "predicted_answer": "3M does not have a readily available quick ratio metric for Q2 of FY2023. The evidence provided does not contain the quick ratio or any relevant liquidity metrics. Therefore, the answer is:\n\nInsufficient evidence.",
+    "answer_correct": false,
+    "gold_pages": [
+      4
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hit_at_5": false,
+    "latency_seconds": 594.7392,
+    "verification": {
+      "checks": {
+        "numerical": true,
+        "evidence": false,
+        "logical": false,
+        "financial_consistency": true
+      },
+      "confidence": 0.5,
+      "failed_checks": [
+        "evidence",
+        "logical"
+      ],
+      "details": {
+        "answer_numbers": [
+          3.0,
+          2.0,
+          2023.0
+        ]
+      }
+    },
+    "retrieved_evidence": [
+      {
+        "score": -0.2818506360054016,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 69,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents FINANCIAL CONDITION AND LIQUIDITY The strength and stability of 3M’s business model and strong free cash flow capability, together with proven capital markets access, provide financial flexibility to deploy capital in accordance with the Company's stated priorities and meet needs a"
+      },
+      {
+        "score": -4.755940914154053,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 70,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents The Company also had $315 million in stand-alone letters of credit and bank guarantees issued and outstanding at June 30, 2023. These instruments are utilized in connection with normal business activities. Cash, cash equivalents and marketable securities: At June 30, 2023, 3M had $"
+      },
+      {
+        "score": -5.323511600494385,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 26,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents Assets and Liabilities that are Measured at Fair Value on a Nonrecurring Basis: Disclosures are required for certain assets and liabilities that are measured at fair value, but are recognized and disclosed at fair value on a nonrecurring basis in periods subsequent to initial recog"
+      },
+      {
+        "score": -5.774807929992676,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 61,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents Financial condition: Refer to the section entitled Financial Condition and Liquidity later in MD&A for a discussion of items impacting cash flows. In November 2018, 3M’s Board of Directors replaced the Company’s February 2016 repurchase program with a new repurchase program. This n"
+      },
+      {
+        "score": -5.821094036102295,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 53,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents Item 2. Management’s Discussion and Analysis of Financial Condition and Results of Operations. Management’s Discussion and Analysis of Financial Condition and Results of Operations (MD&A) is designed to provide a reader of 3M’s financial statements with a narrative from the perspec"
+      },
+      {
+        "score": -6.018449783325195,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 6,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents 3M Company and Subsidiaries Notes to Consolidated Financial Statements (Unaudited) NOTE 1. Significant Accounting Policies Basis of Presentation The interim consolidated financial statements are unaudited but, in the opinion of management, reflect all adjustments necessary for a fa"
+      },
+      {
+        "score": -6.02430534362793,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 23,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents Location, Fair Value, and Gross Notional Amounts of Derivative Instruments The following tables summarize the fair value of 3M’s derivative instruments, excluding nonderivative instruments used as hedging instruments, and their location in the consolidated balance sheet. Notional a"
+      },
+      {
+        "score": -6.431300163269043,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 18,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents NOTE 10. Long-Term Debt and Short-Term Borrowings In February 2023, 3M repaid $500 million aggregate principal amount of fixed-rate registered notes that matured. In March 2023, 3M repaid $650 million aggregate principal amount of fixed-rate medium-term notes that matured. In May 2"
+      },
+      {
+        "score": -6.823707580566406,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 87,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "EXHIBIT 31.1 SARBANES-OXLEY SECTION 302 CERTIFICATION I, Michael F. Roman, certify that: 1. I have reviewed this quarterly report on Form 10-Q of 3M Company; 2. Based on my knowledge, this report does not contain any untrue statement of a material fact or omit to state a material fact necessary to m"
+      }
+    ],
+    "error": null
+  },
+  {
+    "financebench_id": "financebench_id_00941",
+    "question": "Which debt securities are registered to trade on a national securities exchange under 3M's name as of Q2 of 2023?",
+    "company": "3M",
+    "document": "3M_2023Q2_10Q",
+    "question_type": "domain-relevant",
+    "question_reasoning": "Information extraction",
+    "gold_answer": "Following debt securities registered under 3M's name are listed to trade on the New York Stock Exchange:\n-1.500% Notes due 2026 (Trading Symbol: MMM26)\n-1.750% Notes due 2030 (Trading Symbol: MMM30)\n-1.500% Notes due 2031 (Trading Symbol: MMM31)",
+    "predicted_answer": "Apple's operating margin for fiscal year 2025 was 31.97%.",
+    "answer_correct": false,
+    "gold_pages": [
+      0
+    ],
+    "hit_at_1": false,
+    "hit_at_3": false,
+    "hit_at_5": false,
+    "latency_seconds": 176.732,
+    "verification": {
+      "checks": {
+        "numerical": true,
+        "evidence": true,
+        "logical": true,
+        "financial_consistency": true
+      },
+      "confidence": 1.0,
+      "failed_checks": [],
+      "details": {
+        "answer_numbers": [
+          2025.0,
+          31.97,
+          1.0
+        ]
+      }
+    },
+    "retrieved_evidence": [
+      {
+        "score": 1.6781179904937744,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 84,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents Item 2. Unregistered Sales of Equity Securities and Use of Proceeds. Issuer Purchases of Equity Securities Repurchases of 3M common stock are made to support the Company’s stock-based employee compensation plans and for other corporate purposes. In November 2018, 3M’s Board of Dire"
+      },
+      {
+        "score": 1.4245328903198242,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 26,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents Assets and Liabilities that are Measured at Fair Value on a Nonrecurring Basis: Disclosures are required for certain assets and liabilities that are measured at fair value, but are recognized and disclosed at fair value on a nonrecurring basis in periods subsequent to initial recog"
+      },
+      {
+        "score": 1.1783479452133179,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 70,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents The Company also had $315 million in stand-alone letters of credit and bank guarantees issued and outstanding at June 30, 2023. These instruments are utilized in connection with normal business activities. Cash, cash equivalents and marketable securities: At June 30, 2023, 3M had $"
+      },
+      {
+        "score": 1.012285590171814,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 90,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "EXHIBIT 32.2 SARBANES-OXLEY SECTION 906 CERTIFICATION In connection with the Quarterly Report of 3M Company (the “Company”) on Form 10-Q for the period ended June 30, 2023 as filed with the Securities and Exchange Commission on the date hereof (the “Report”), I, Monish Patolawala, Chief Financial Of"
+      },
+      {
+        "score": 0.8245975971221924,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 89,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "EXHIBIT 32.1 SARBANES-OXLEY SECTION 906 CERTIFICATION In connection with the Quarterly Report of 3M Company (the “Company”) on Form 10-Q for the period ended June 30, 2023 as filed with the Securities and Exchange Commission on the date hereof (the “Report”), I, Michael F. Roman, Chief Executive Off"
+      }
+    ],
+    "error": null
+  },
+  {
+    "financebench_id": "financebench_id_01858",
+    "question": "Does 3M maintain a stable trend of dividend distribution?",
+    "company": "3M",
+    "document": "3M_2023Q2_10Q",
+    "question_type": "novel-generated",
+    "question_reasoning": null,
+    "gold_answer": "Yes, not only they distribute the dividends on a routine basis, 3M has also been increasing the per share dividend for consecutive 65 years",
+    "predicted_answer": "3M maintains a stable trend of dividend distribution.",
+    "answer_correct": false,
+    "gold_pages": [
+      61
+    ],
+    "hit_at_1": false,
+    "hit_at_3": true,
+    "hit_at_5": true,
+    "latency_seconds": 135.7962,
+    "verification": {
+      "checks": {
+        "numerical": true,
+        "evidence": true,
+        "logical": true,
+        "financial_consistency": true
+      },
+      "confidence": 1.0,
+      "failed_checks": [],
+      "details": {
+        "answer_numbers": [
+          3.0,
+          1.0
+        ]
+      }
+    },
+    "retrieved_evidence": [
+      {
+        "score": 2.796454906463623,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 69,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents FINANCIAL CONDITION AND LIQUIDITY The strength and stability of 3M’s business model and strong free cash flow capability, together with proven capital markets access, provide financial flexibility to deploy capital in accordance with the Company's stated priorities and meet needs a"
+      },
+      {
+        "score": -2.264573812484741,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 61,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents Financial condition: Refer to the section entitled Financial Condition and Liquidity later in MD&A for a discussion of items impacting cash flows. In November 2018, 3M’s Board of Directors replaced the Company’s February 2016 repurchase program with a new repurchase program. This n"
+      },
+      {
+        "score": -2.6019234657287598,
+        "source": "FinanceBench",
+        "filing": "3M_2023Q2_10Q.pdf",
+        "page": 18,
+        "document": "3M_2023Q2_10Q.pdf",
+        "text_preview": "Table of Contents NOTE 10. Long-Term Debt and Short-Term Borrowings In February 2023, 3M repaid $500 million aggregate principal amount of fixed-rate registered notes that matured. In March 2023, 3M repaid $650 million aggregate principal amount of fixed-rate medium-term notes that matured. In May 2"
+      }
+    ],
+    "error": null
+  }
+]

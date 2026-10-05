@@ -1,0 +1,25 @@
+{
+  "num_questions": 8,
+  "answer_accuracy": 0.125,
+  "evidence_hit_at_1": 0.0,
+  "evidence_hit_at_3": 0.125,
+  "evidence_hit_at_5": 0.125,
+  "average_latency_seconds": 278.4586875,
+  "accuracy_by_question_type": {
+    "metrics-generated": {
+      "count": 2,
+      "accuracy": 0.5,
+      "hit_at_5": 0.0
+    },
+    "domain-relevant": {
+      "count": 4,
+      "accuracy": 0.0,
+      "hit_at_5": 0.0
+    },
+    "novel-generated": {
+      "count": 2,
+      "accuracy": 0.0,
+      "hit_at_5": 0.5
+    }
+  }
+}
